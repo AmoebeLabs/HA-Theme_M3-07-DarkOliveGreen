@@ -3,9 +3,9 @@
 # Material 3 Theme for Home Asistant: #07, Dark Olive Green
 
 ## What is it
-A Material 3 based extended dark/light theme for Home Assistant.
+A Material 3 based extended Dark & Light theme for Home Assistant.
 
-Currently tested for compatibility with Material 2 which is what Home Assistant uses...
+Currently tested for compatibility with Material 2 which is what Home Assistant uses... In other words: in BETA 😄
 
 ## Installation via HACS
 TODO
