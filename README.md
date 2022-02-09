@@ -10,6 +10,17 @@ Currently tested for compatibility with Material 2 which is what Home Assistant 
 ## Installation via HACS
 TODO
 
+## Manual Installation
+Get the yaml file and put int into your `themes` folder.
+
+If you have the following in your `configuration.yaml`:
+```yaml
+frontend:
+  themes: !include_dir_merge_named themes/
+```
+
+The theme will be automatically available once you have reloaded the themes using the Home Assistant 'Developer Tools' > 'Services' > 'frontend.reload_themes' service.
+
 ## Theme Preview:
 Below the definition of the theme, generated and displayed using the Swiss Army Knife custom card for Home Assistant (NYR).
 
