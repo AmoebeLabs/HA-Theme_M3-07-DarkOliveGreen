@@ -1,4 +1,5 @@
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
+
+![beta_badge](https://img.shields.io/badge/State-Beta-orange?style=for-the-badge)
 
 # Material 3 Theme for Home Asistant: #07, Dark Olive Green
 
