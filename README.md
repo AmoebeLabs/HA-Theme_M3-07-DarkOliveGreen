@@ -5,6 +5,8 @@
 ## What is it
 A Material 3 based extended dark/light theme for Home Assistant.
 
+Currently tested for compatibility with Material 2 which is what Home Assistant uses...
+
 ## Installation via HACS
 TODO
 
