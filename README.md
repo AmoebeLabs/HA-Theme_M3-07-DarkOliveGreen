@@ -8,6 +8,8 @@ A Material 3 based extended Dark & Light theme for Home Assistant.
 
 Currently tested for compatibility with Material 2 which is what Home Assistant uses... In other words: in BETA 😄
 
+For beta documentation: see https://ha-m3-themes.docs.amoebelabs.com/
+
 ## Installation via HACS
 TODO
 
