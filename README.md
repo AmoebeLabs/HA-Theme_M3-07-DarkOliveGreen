@@ -6,7 +6,14 @@
 ## What is it
 A Material 3 based extended Dark & Light theme for Home Assistant.
 
-Currently tested for compatibility with Material 2 which is what Home Assistant uses... In other words: in BETA 😄
+This theme not only defines Material 3 dark and light mode colors, but also adapts some of the Home Assistant colors in dark mode as advised by Material 3:
+- The error, warning, success and info colors
+- The energy dashboard colors
+- The label badge (red, blue, green, yellow, grey) colors
+- The state climate colors
+- The state (on, off, home, not home, unknown, idle) colors
+
+All these colors have been desaturated a bit and given more brightness to have a better match with the dark mode.
 
 For beta documentation: see https://ha-m3-themes.docs.amoebelabs.com/
 
