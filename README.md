@@ -15,6 +15,8 @@ This theme not only defines Material 3 dark and light mode colors, but also adap
 
 All these colors have been desaturated a bit and given more brightness to have a better match with the dark mode.
 
+The theme also defines some Neumorphic shadow colors for dark and light mode.
+
 For beta documentation: see https://ha-m3-themes.docs.amoebelabs.com/
 
 ## Installation via HACS
