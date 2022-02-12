@@ -1,7 +1,7 @@
 #
 # Theme     : m3-07-darkolivegreen.yaml
 # Project   : Home Assistant
-# Repository: https://github.com/AmoebeLabs/l
+# Repository: https://github.com/AmoebeLabs/HA-Theme_M3-07-DarkOliveGreen
 #
 # Author    : Mars @ AmoebeLabs.com
 # 
@@ -9,35 +9,20 @@
 #
 # -----
 # Description:
-#   Neumorphic theme with gonsboro as the main background color (light grey)
-#
-# Refs:
-#   - https://neumorphism.io/#efeeee
-#   - https://material.io/develop/web/theming/theming-guide
+#   Dark / Light theme based on Material 3 for Home Assistant.
 #
 # According to: https://encycolorpedia.com/526600
 #   - Dark Olive Green
 #   
 ###############################################################################
 #
-# M3-07-AmoebeLabs:
 M3-07-DarkOliveGreen:
-  #
-  # Theming the box-shadow for a card using Neumorphic guidelines.
-  # --------------------------------------------------------------
-  ha-card-box-shadow: '3px 3px 6px var(--theme-default-shadow-darker, --theme-shadow-darker), -3px -3px 6px var(--theme-default-shadow-lighter, --theme-shadow-lighter)'
-  ha-card-box-shadow: '1px 1px 2px var(--theme-default-shadow-darker), -1px -1px 2px var(--theme-default-shadow-lighter)'
-
-  # Make it an inset shadow. Looks very nice combined with the neumorphic design!!!!
-  theme-card-box-shadow: 'var(--shadow-elevation-2dp_-_box-shadow)'
-
-  # From: https://designmodo.com/mobile-app-navigations/
-  # via colorpicker
-       # Very light brown for background??
-
   # Colors generated via Material Design 3 (Material You) DSP export of figma
   #
-
+  # --------------------------------------------------------------------------
+  # ==================== START of M3 copy/paste configuration ================
+  # --------------------------------------------------------------------------
+  
   theme-ref-elevation-surface-neutral1-light: rgb(249,247,239)
   theme-ref-elevation-surface-neutral2-light: rgb(246,244,236)
   theme-ref-elevation-surface-neutral3-light: rgb(241,239,232)
@@ -139,47 +124,6 @@ M3-07-DarkOliveGreen:
   theme-ref-elevation-surface-error8-dark: rgb(107,81,74)
   theme-ref-elevation-surface-error9-dark: rgb(118,89,81)
   theme-ref-elevation-surface-error10-dark: rgb(130,96,89)
-
-  # theme-ref-elevation-surface-primary1-light: rgb(249,248,237)
-  # theme-ref-elevation-surface-primary2-light: rgb(245,244,232)
-  # theme-ref-elevation-surface-primary3-light: rgb(240,240,224)
-  # theme-ref-elevation-surface-primary4-light: rgb(235,236,217)
-  # theme-ref-elevation-surface-primary5-light: rgb(228,230,207)
-  # theme-ref-elevation-surface-primary6-light: rgb(221,224,198)
-  # theme-ref-elevation-surface-primary7-light: rgb(213,216,185)
-  # theme-ref-elevation-surface-primary8-light: rgb(204,209,173)
-  # theme-ref-elevation-surface-primary9-light: rgb(194,200,159)
-  # theme-ref-elevation-surface-primary10-light: rgb(185,192,146)
-  # theme-ref-elevation-surface-neutral1-light: rgb(249,247,239)
-  # theme-ref-elevation-surface-neutral2-light: rgb(246,244,236)
-  # theme-ref-elevation-surface-neutral3-light: rgb(241,239,232)
-  # theme-ref-elevation-surface-neutral4-light: rgb(237,235,227)
-  # theme-ref-elevation-surface-neutral5-light: rgb(230,228,221)
-  # theme-ref-elevation-surface-neutral6-light: rgb(224,222,215)
-  # theme-ref-elevation-surface-neutral7-light: rgb(216,214,207)
-  # theme-ref-elevation-surface-neutral8-light: rgb(208,206,199)
-  # theme-ref-elevation-surface-neutral9-light: rgb(198,197,190)
-  # theme-ref-elevation-surface-neutral10-light: rgb(190,189,182)
-  # theme-ref-elevation-surface-primary1-dark: rgb(35,37,27)
-  # theme-ref-elevation-surface-primary2-dark: rgb(40,42,29)
-  # theme-ref-elevation-surface-primary3-dark: rgb(44,48,32)
-  # theme-ref-elevation-surface-primary4-dark: rgb(51,55,35)
-  # theme-ref-elevation-surface-primary5-dark: rgb(57,62,38)
-  # theme-ref-elevation-surface-primary6-dark: rgb(65,71,42)
-  # theme-ref-elevation-surface-primary7-dark: rgb(73,80,46)
-  # theme-ref-elevation-surface-primary8-dark: rgb(82,91,51)
-  # theme-ref-elevation-surface-primary9-dark: rgb(90,100,55)
-  # theme-ref-elevation-surface-primary10-dark: rgb(98,109,59)
-  # theme-ref-elevation-surface-neutral1-dark: rgb(36,37,31)
-  # theme-ref-elevation-surface-neutral2-dark: rgb(41,42,36)
-  # theme-ref-elevation-surface-neutral3-dark: rgb(46,47,41)
-  # theme-ref-elevation-surface-neutral4-dark: rgb(53,54,48)
-  # theme-ref-elevation-surface-neutral5-dark: rgb(60,60,55)
-  # theme-ref-elevation-surface-neutral6-dark: rgb(69,69,63)
-  # theme-ref-elevation-surface-neutral7-dark: rgb(77,78,72)
-  # theme-ref-elevation-surface-neutral8-dark: rgb(88,88,82)
-  # theme-ref-elevation-surface-neutral9-dark: rgb(96,96,90)
-  # theme-ref-elevation-surface-neutral10-dark: rgb(105,105,99)
 
   theme-ref-palette-primary100: '#ffffff'
   theme-ref-palette-primary99: '#fbffda'
@@ -326,11 +270,15 @@ M3-07-DarkOliveGreen:
   theme-ref-palette-neutral-variant92: '#eaebdaff'
   theme-ref-palette-neutral-variant97: '#f7f8e6ff'
 
+  # --------------------------------------------------------------------------
+  # ==================== END of M3 copy/paste configuration ==================
+  # --------------------------------------------------------------------------
+
   # ============================================================================
   modes:
 
-    # dark theme...
-    #
+    # --------------------------------------------------------------------------
+    # ==================== START of DARK mode configuration ====================
     # --------------------------------------------------------------------------
     dark:
       # Start with the M3 generated colors for dark mode...
@@ -350,9 +298,9 @@ M3-07-DarkOliveGreen:
       theme-sys-color-tertiary-container: var(--theme-ref-palette-tertiary30)
       theme-sys-color-on-tertiary-container: var(--theme-ref-palette-tertiary90)
 
-      theme-sys-color-error: var(--theme-ref-palette-error80)
+      theme-sys-ha-error-color: var(--theme-ref-palette-error80)
       theme-sys-color-on-error: var(--theme-ref-palette-error20)
-      theme-sys-color-error-container: var(--theme-ref-palette-error30)
+      theme-sys-ha-error-color-container: var(--theme-ref-palette-error30)
       theme-sys-color-on-error-container: var(--theme-ref-palette-error90)
 
       theme-sys-color-background: var(--theme-ref-palette-neutral10)
@@ -457,9 +405,35 @@ M3-07-DarkOliveGreen:
       theme-sys-palette-tertiary5: var(--theme-ref-palette-tertiary99)
       theme-sys-palette-tertiary0: var(--theme-ref-palette-tertiary100)
 
+      # Error
+      # -----------------------------------------------------------------------
+      theme-sys-palette-error100: var(--theme-ref-palette-error0)
+      theme-sys-palette-error99: var(--theme-ref-palette-error5)
+      theme-sys-palette-error97: var(--theme-ref-palette-error7)
+      theme-sys-palette-error95: var(--theme-ref-palette-error10)
+      theme-sys-palette-error92: var(--theme-ref-palette-error15)
+      theme-sys-palette-error90: var(--theme-ref-palette-error20)
+      theme-sys-palette-error85: var(--theme-ref-palette-error25)
+      theme-sys-palette-error80: var(--theme-ref-palette-error30)
+      theme-sys-palette-error75: var(--theme-ref-palette-error35)
+      theme-sys-palette-error70: var(--theme-ref-palette-error40)
+      theme-sys-palette-error65: var(--theme-ref-palette-error45)
+      theme-sys-palette-error60: var(--theme-ref-palette-error50)
+      theme-sys-palette-error50: var(--theme-ref-palette-error60)
+      theme-sys-palette-error45: var(--theme-ref-palette-error65)
+      theme-sys-palette-error40: var(--theme-ref-palette-error70)
+      theme-sys-palette-error35: var(--theme-ref-palette-error75)
+      theme-sys-palette-error30: var(--theme-ref-palette-error80)
+      theme-sys-palette-error25: var(--theme-ref-palette-error85)
+      theme-sys-palette-error20: var(--theme-ref-palette-error90)
+      theme-sys-palette-error15: var(--theme-ref-palette-error92)
+      theme-sys-palette-error10: var(--theme-ref-palette-error95)
+      theme-sys-palette-error7: var(--theme-ref-palette-error97)
+      theme-sys-palette-error5: var(--theme-ref-palette-error99)
+      theme-sys-palette-error0: var(--theme-ref-palette-error100)
+
       # Surfaces
       # -----------------------------------------------------------------------
-
       theme-sys-elevation-color-neutral1: var(--theme-ref-elevation-surface-neutral1-dark)
       theme-sys-elevation-color-neutral2: var(--theme-ref-elevation-surface-neutral2-dark)
       theme-sys-elevation-color-neutral3: var(--theme-ref-elevation-surface-neutral3-dark)
@@ -482,52 +456,146 @@ M3-07-DarkOliveGreen:
       theme-sys-elevation-color-primary9: var(--theme-ref-elevation-surface-primary9-dark)
       theme-sys-elevation-color-primary10: var(--theme-ref-elevation-surface-primary10-dark)
 
+      theme-sys-elevation-color-secondary1: var(--theme-ref-elevation-surface-secondary1-dark)
+      theme-sys-elevation-color-secondary2: var(--theme-ref-elevation-surface-secondary2-dark)
+      theme-sys-elevation-color-secondary3: var(--theme-ref-elevation-surface-secondary3-dark)
+      theme-sys-elevation-color-secondary4: var(--theme-ref-elevation-surface-secondary4-dark)
+      theme-sys-elevation-color-secondary5: var(--theme-ref-elevation-surface-secondary5-dark)
+      theme-sys-elevation-color-secondary6: var(--theme-ref-elevation-surface-secondary6-dark)
+      theme-sys-elevation-color-secondary7: var(--theme-ref-elevation-surface-secondary7-dark)
+      theme-sys-elevation-color-secondary8: var(--theme-ref-elevation-surface-secondary8-dark)
+      theme-sys-elevation-color-secondary9: var(--theme-ref-elevation-surface-secondary9-dark)
+      theme-sys-elevation-color-secondary10: var(--theme-ref-elevation-surface-secondary10-dark)
+
+      theme-sys-elevation-color-tertiary1: var(--theme-ref-elevation-surface-tertiary1-dark)
+      theme-sys-elevation-color-tertiary2: var(--theme-ref-elevation-surface-tertiary2-dark)
+      theme-sys-elevation-color-tertiary3: var(--theme-ref-elevation-surface-tertiary3-dark)
+      theme-sys-elevation-color-tertiary4: var(--theme-ref-elevation-surface-tertiary4-dark)
+      theme-sys-elevation-color-tertiary5: var(--theme-ref-elevation-surface-tertiary5-dark)
+      theme-sys-elevation-color-tertiary6: var(--theme-ref-elevation-surface-tertiary6-dark)
+      theme-sys-elevation-color-tertiary7: var(--theme-ref-elevation-surface-tertiary7-dark)
+      theme-sys-elevation-color-tertiary8: var(--theme-ref-elevation-surface-tertiary8-dark)
+      theme-sys-elevation-color-tertiary9: var(--theme-ref-elevation-surface-tertiary9-dark)
+      theme-sys-elevation-color-tertiary10: var(--theme-ref-elevation-surface-tertiary10-dark)
+
+      theme-sys-elevation-color-error1: var(--theme-ref-elevation-surface-error1-dark)
+      theme-sys-elevation-color-error2: var(--theme-ref-elevation-surface-error2-dark)
+      theme-sys-elevation-color-error3: var(--theme-ref-elevation-surface-error3-dark)
+      theme-sys-elevation-color-error4: var(--theme-ref-elevation-surface-error4-dark)
+      theme-sys-elevation-color-error5: var(--theme-ref-elevation-surface-error5-dark)
+      theme-sys-elevation-color-error6: var(--theme-ref-elevation-surface-error6-dark)
+      theme-sys-elevation-color-error7: var(--theme-ref-elevation-surface-error7-dark)
+      theme-sys-elevation-color-error8: var(--theme-ref-elevation-surface-error8-dark)
+      theme-sys-elevation-color-error9: var(--theme-ref-elevation-surface-error9-dark)
+      theme-sys-elevation-color-error10: var(--theme-ref-elevation-surface-error10-dark)
+
       # Background colors:
       # - primary for general backgrounds
       # - secondary for cards (and more)
-      # theme-default-primary-background-color: var(--theme-background-color-lighten-50)
-      # theme-default-secondary-background-color: var(--theme-background-color-lighten-20)
-      theme-default-primary-background-color: var(--theme-sys-color-background)
-      theme-default-secondary-background-color: var(--theme-sys-elevation-color-primary3)
-      # theme-default-secondary-background-color: var(--theme-ref-palette-neutral-variant20)
+      theme-sys-ha-primary-background-color: var(--theme-sys-color-background)
+      theme-sys-ha-secondary-background-color: var(--theme-sys-elevation-color-primary3)
 
       # For boxshadow: darker and lighter colors relative to secondary background color (cards!)
-      theme-default-shadow-darker: var(--theme-background-color-lighten-170)
-      theme-default-shadow-lighter: var(--theme-background-color-darken-20)
+      theme-sys-ha-shadow-darker: var(--theme-background-color-lighten-170)
+      theme-sys-ha-shadow-lighter: var(--theme-background-color-darken-20)
       
       # Primary color is header for instance with view menu
-      theme-default-primary-color: var(--theme-sys-color-primary) #theme-primary-color)
-      theme-default-accent-color: 'var(--theme-text-primary-color-accent-40)'
-      theme-default-light-primary-color: var(--theme-sys-color-primary-container) #'var(--theme-primary-color-lighten-40)'
-      theme-default-dark-primary-color: var(--theme-sys-color-on-primary-container) #'var(--theme-primary-color-darken-40)'
+      theme-sys-ha-primary-color: var(--theme-sys-color-primary)
+      theme-sys-ha-light-primary-color: 'var(--theme-ref-palette-primary90)'
+      theme-sys-ha-dark-primary-color: 'var(--theme-ref-palette-primary10)'
 
       # Set text colors
-      theme-default-primary-text-color: var(--theme-sys-color-on-surface)
-      theme-default-secondary-text-color: var(--theme-text-secondary-color)
-      theme-default-disabled-text-color: var(--theme-text-primary-color-darken-20)
-      theme-default-secondary-text-color: var(--theme-sys-color-secondary) #var(--theme-text-secondary-color)
-      theme-default-disabled-text-color: theme-sys-color-surface-variant #var(--theme-text-primary-color-lighten-20)
+      theme-sys-ha-primary-text-color: var(--theme-sys-color-on-surface)
+      # theme-sys-ha-secondary-text-color: var(--theme-text-secondary-color)
+      theme-sys-ha-disabled-text-color: var(--theme-sys-elevation-color-neutral5)
+      theme-sys-ha-secondary-text-color: var(--theme-sys-color-secondary)
+      theme-sys-ha-disabled-text-color: var(--theme-sys-color-surface-variant)
 
-      theme-default-primary-icon-color: var(--theme-primary-text-color)
+      theme-sys-ha-primary-icon-color: var(--theme-primary-text-color)
 
       # App header is set to black instead of primary-color, so change this...
-      theme-default-app-header-background-color: var(--theme-sys-elevation-color-primary1)
+      theme-sys-ha-app-header-background-color: var(--theme-sys-elevation-color-primary1)
 
       # Card state colors
-      # theme-card-background-color:  var(--theme-background-color-darken-5) #var(--theme-default-secondary-background-color)
-      # theme-card-background-color: var(--surface-dark-2)
-      theme-card-background-color: var(--theme-sys-elevation-color-neutral1)
+      # theme-sys-ha-card-background-color:  var(--theme-background-color-darken-5) #var(--theme-sys-ha-secondary-background-color)
+      # theme-sys-ha-card-background-color: var(--surface-dark-2)
+      theme-sys-ha-card-background-color: var(--theme-sys-elevation-color-neutral1)
 
-      theme-card-background-color-active: rgb(255, 255, 255, 0.08)
-      theme-card-background-color-active: rgb(255, 255, 255, 0.2)
-      theme-card-background-color-inactive: rgb(0, 0, 0, 0.08)
-      theme-card-background-color-undefined: rgb(0, 0, 0, 0.7)
-      theme-card-background-color-unavailable: rgb(0, 0, 0, 0.7)
+      theme-sys-ha-card-background-color-active: rgb(255, 255, 255, 0.08)
+      theme-sys-ha-card-background-color-active: rgb(255, 255, 255, 0.2)
+      theme-sys-ha-card-background-color-inactive: rgb(0, 0, 0, 0.08)
+      theme-sys-ha-card-background-color-undefined: rgb(0, 0, 0, 0.7)
+      theme-sys-ha-card-background-color-unavailable: rgb(0, 0, 0, 0.7)
+      
+      # Accent colors
+      theme-sys-ha-accent-color: var(--theme-sys-color-tertiary)
+      theme-sys-ha-on-accent-color: var(--theme-sys-color-on-tertiary)
+
+      # Neumorphic colors for shadows
+      theme-sys-ha-shadow-lighter-nm: '#292b24'
+      theme-sys-ha-shadow-darker-nm: '#1f1f1a'
+
+      # 
+      # Redefine some HA specific colors in dark mode and leave them as is in
+      # light mode. This saves a lot of variables and redefinitions...
+      # ========================================================================
+      
+      # Warning and info colors. Error is using the system default error color...
+      # - default warning-color is #ffa600, orange
+      # - default info-color is #039be5, blue
+      #
+      # Dark theme is using lighter tints of these default colors...
+      warning-color: '#ffca66'
+      info-color: '#91dafe'
+      success-color: '#87cd8a'
+
+      # Energy dashboard colors. Dark theme is using a tint variant of the default colors...
+      # Using colordesigner.io. 5 tints, using the second tint from the left.
+      # ------------------------------------------------------------------------
+      energy-battery-out-color: '#94d3cd'
+      energy-grid-consumption-color: '#91bcda'
+      energy-non-fossil-color: '#46ed9c'
+      energy-grid-return-color: '#c7b3e9'
+      rgb-energy-grid-return-color: rgb(var(--energy-grid-return-color))
+      energy-solor-color: '#f6a1be'
+      energy-gas-color: '#fd6f88'
+
+      # for label-badge 
+      label-badge-red: '#ed9377'
+      label-badge-blue: '#23b5fc'
+      label-badge-green: '#12de4a'
+      label-badge-yellow: '#ffce45'
+      # # label-badge-grey: #9e9e9e #9e9e9e
+
+      # heat colors. Dark theme is using a tint variant of the default colors...
+      # ------------------------------------------------------------------------
+      state-climate-auto-color: '#66ff66'     #008000
+      state-climate-eco-color: '#4dffa5'      #00ff7f
+      state-climate-cool-color: '#6bb8fb'     #2b9af9
+      state-climate-heat-color: '#ff9a33'     #ff8100
+      state-climate-manual-color: '#608fbb'   #44739e
+      state-climate-off-color: '#a1a1a1'      #8a8a8a
+      state-climate-fan_only-color: '#a1a1a1' #8a8a8a
+      state-climate-dry-color: '#fad44b'      #efbd07
+      state-climate-idle-color: '#a1a1a1'     #8a8a8a
+
+      # state colors. Dark theme is using a tint variant of the default colors...
+      # ------------------------------------------------------------------------
+      state-on-color: '#b4e77a'               #66a61e
+      state-off-color: '#ff5f78'              #ff0029
+      state-home-color: '#b4e77a'             #66a61e
+      state-not_home-color: '#ff5f78'         #ff0029
+      state-unknown-color: '#808080'          #606060
+      state-idle-color: '#7990a3'             #7990a3
 
     # --------------------------------------------------------------------------
+    # ==================== END of DARK mode configuration ======================
     # --------------------------------------------------------------------------
+
     # --------------------------------------------------------------------------
+    # ==================== START of LIGHT mode configuration ===================
     # --------------------------------------------------------------------------
+
     light:
       # Light
       theme-sys-color-primary: var(--theme-ref-palette-primary40)
@@ -545,9 +613,9 @@ M3-07-DarkOliveGreen:
       theme-sys-color-tertiary-container: var(--theme-ref-palette-tertiary90)
       theme-sys-color-on-tertiary-container: var(--theme-ref-palette-tertiary10)
 
-      theme-sys-color-error: var(--theme-ref-palette-error40)
+      theme-sys-ha-error-color: var(--theme-ref-palette-error40)
       theme-sys-color-on-error: var(--theme-ref-palette-error100)
-      theme-sys-color-error-container: var(--theme-ref-palette-error90)
+      theme-sys-ha-error-color-container: var(--theme-ref-palette-error90)
       theme-sys-color-on-error-container: var(--theme-ref-palette-error10)
 
       theme-sys-color-background: var(--theme-ref-palette-neutral99)
@@ -650,6 +718,33 @@ M3-07-DarkOliveGreen:
       theme-sys-palette-tertiary5: var(--theme-ref-palette-tertiary5)
       theme-sys-palette-tertiary0: var(--theme-ref-palette-tertiary0)
 
+      # Error
+      # -----------------------------------------------------------------------
+      theme-sys-palette-error100: var(--theme-ref-palette-error100)
+      theme-sys-palette-error99: var(--theme-ref-palette-error99)
+      theme-sys-palette-error97: var(--theme-ref-palette-error97)
+      theme-sys-palette-error95: var(--theme-ref-palette-error95)
+      theme-sys-palette-error92: var(--theme-ref-palette-error92)
+      theme-sys-palette-error90: var(--theme-ref-palette-error90)
+      theme-sys-palette-error85: var(--theme-ref-palette-error85)
+      theme-sys-palette-error80: var(--theme-ref-palette-error80)
+      theme-sys-palette-error75: var(--theme-ref-palette-error75)
+      theme-sys-palette-error70: var(--theme-ref-palette-error70)
+      theme-sys-palette-error65: var(--theme-ref-palette-error65)
+      theme-sys-palette-error60: var(--theme-ref-palette-error60)
+      theme-sys-palette-error50: var(--theme-ref-palette-error50)
+      theme-sys-palette-error45: var(--theme-ref-palette-error45)
+      theme-sys-palette-error40: var(--theme-ref-palette-error40)
+      theme-sys-palette-error35: var(--theme-ref-palette-error35)
+      theme-sys-palette-error30: var(--theme-ref-palette-error30)
+      theme-sys-palette-error25: var(--theme-ref-palette-error25)
+      theme-sys-palette-error20: var(--theme-ref-palette-error20)
+      theme-sys-palette-error15: var(--theme-ref-palette-error15)
+      theme-sys-palette-error10: var(--theme-ref-palette-error10)
+      theme-sys-palette-error7: var(--theme-ref-palette-error7)
+      theme-sys-palette-error5: var(--theme-ref-palette-error5)
+      theme-sys-palette-error0: var(--theme-ref-palette-error0)
+
       # Surfaces
       # -----------------------------------------------------------------------
 
@@ -675,223 +770,286 @@ M3-07-DarkOliveGreen:
       theme-sys-elevation-color-primary9: var(--theme-ref-elevation-surface-primary9-light)
       theme-sys-elevation-color-primary10: var(--theme-ref-elevation-surface-primary10-light)
 
+      theme-sys-elevation-color-secondary1: var(--theme-ref-elevation-surface-secondary1-light)
+      theme-sys-elevation-color-secondary2: var(--theme-ref-elevation-surface-secondary2-light)
+      theme-sys-elevation-color-secondary3: var(--theme-ref-elevation-surface-secondary3-light)
+      theme-sys-elevation-color-secondary4: var(--theme-ref-elevation-surface-secondary4-light)
+      theme-sys-elevation-color-secondary5: var(--theme-ref-elevation-surface-secondary5-light)
+      theme-sys-elevation-color-secondary6: var(--theme-ref-elevation-surface-secondary6-light)
+      theme-sys-elevation-color-secondary7: var(--theme-ref-elevation-surface-secondary7-light)
+      theme-sys-elevation-color-secondary8: var(--theme-ref-elevation-surface-secondary8-light)
+      theme-sys-elevation-color-secondary9: var(--theme-ref-elevation-surface-secondary9-light)
+      theme-sys-elevation-color-secondary10: var(--theme-ref-elevation-surface-secondary10-light)
+
+      theme-sys-elevation-color-tertiary1: var(--theme-ref-elevation-surface-tertiary1-light)
+      theme-sys-elevation-color-tertiary2: var(--theme-ref-elevation-surface-tertiary2-light)
+      theme-sys-elevation-color-tertiary3: var(--theme-ref-elevation-surface-tertiary3-light)
+      theme-sys-elevation-color-tertiary4: var(--theme-ref-elevation-surface-tertiary4-light)
+      theme-sys-elevation-color-tertiary5: var(--theme-ref-elevation-surface-tertiary5-light)
+      theme-sys-elevation-color-tertiary6: var(--theme-ref-elevation-surface-tertiary6-light)
+      theme-sys-elevation-color-tertiary7: var(--theme-ref-elevation-surface-tertiary7-light)
+      theme-sys-elevation-color-tertiary8: var(--theme-ref-elevation-surface-tertiary8-light)
+      theme-sys-elevation-color-tertiary9: var(--theme-ref-elevation-surface-tertiary9-light)
+      theme-sys-elevation-color-tertiary10: var(--theme-ref-elevation-surface-tertiary10-light)
+
+      theme-sys-elevation-color-error1: var(--theme-ref-elevation-surface-error1-light)
+      theme-sys-elevation-color-error2: var(--theme-ref-elevation-surface-error2-light)
+      theme-sys-elevation-color-error3: var(--theme-ref-elevation-surface-error3-light)
+      theme-sys-elevation-color-error4: var(--theme-ref-elevation-surface-error4-light)
+      theme-sys-elevation-color-error5: var(--theme-ref-elevation-surface-error5-light)
+      theme-sys-elevation-color-error6: var(--theme-ref-elevation-surface-error6-light)
+      theme-sys-elevation-color-error7: var(--theme-ref-elevation-surface-error7-light)
+      theme-sys-elevation-color-error8: var(--theme-ref-elevation-surface-error8-light)
+      theme-sys-elevation-color-error9: var(--theme-ref-elevation-surface-error9-light)
+      theme-sys-elevation-color-error10: var(--theme-ref-elevation-surface-error10-light)
+
       # Background colors:
       # - primary for general backgrounds
       # - secondary for cards (and more)
-      # theme-default-primary-background-color: var(--theme-background-color-lighten-140)
-      # theme-default-secondary-background-color: var(--theme-background-color-lighten-180)
-      # theme-default-primary-background-color: var(--theme-background-color)
-      # theme-default-secondary-background-color: var(--theme-background-color-lighten-100)
-      # theme-default-primary-background-color: var(--theme-sys-color-background)
-      theme-default-primary-background-color: var(--theme-sys-elevation-color-neutral1)
-      # theme-default-secondary-background-color: var(--theme-background-color-lighten-100) #var(--theme-background-color-lighten-100)
-      # theme-default-secondary-background-color: var(--theme-ref-palette-neutral80)
-      theme-default-secondary-background-color: var(--theme-sys-elevation-color-neutral5)
+      theme-sys-ha-primary-background-color: var(--theme-sys-elevation-color-neutral1)
+      theme-sys-ha-secondary-background-color: var(--theme-sys-elevation-color-neutral5)
       
       # For boxshadow: darker and lighter colors relative to secondary background color (cards!)
-      # theme-default-shadow-darker: var(--theme-background-color-darken-130)
-      # theme-default-shadow-lighter: var(--theme-background-color-lighten-110)
-      theme-default-shadow-darker: var(--theme-ref-palette-neutral80) #var(--theme-background-color-darken-40)
-      theme-default-shadow-lighter: var(--theme-ref-palette-neutral90) #var(--theme-background-color-darken-10)
+      # theme-sys-ha-shadow-darker: var(--theme-background-color-darken-130)
+      # theme-sys-ha-shadow-lighter: var(--theme-background-color-lighten-110)
+      theme-sys-ha-shadow-darker: var(--theme-ref-palette-neutral80)
+      theme-sys-ha-shadow-lighter: var(--theme-ref-palette-neutral90)
       
       # Primary color is header for instance with view menu
-      theme-default-primary-color: 'var(--theme-sys-color-primary)'
-      theme-default-accent-color: 'var(--theme-text-primary-color-accent-40)'
-      theme-default-light-primary-color: 'var(--theme-text-primary-color-lighten-40)'
-      theme-default-dark-primary-color: 'var(--theme-primary-color-darken-40)'
+      theme-sys-ha-primary-color: 'var(--theme-sys-color-primary)'
+      theme-sys-ha-accent-color: 'var(--theme-text-primary-color-accent-40)'
+      theme-sys-ha-light-primary-color: 'var(--theme-ref-palette-primary90)'
+      theme-sys-ha-dark-primary-color: 'var(--theme-ref-palette-primary10)'
 
       # Set text colors
-      theme-default-primary-text-color: var(--theme-sys-color-on-surface)
-      theme-default-secondary-text-color: var(--theme-sys-color-secondary) #var(--theme-text-secondary-color)
-      theme-default-disabled-text-color: theme-sys-color-surface-variant #var(--theme-text-primary-color-lighten-20)
+      theme-sys-ha-primary-text-color: var(--theme-sys-color-on-surface)
+      theme-sys-ha-secondary-text-color: var(--theme-sys-color-secondary) #var(--theme-text-secondary-color)
+      theme-sys-ha-disabled-text-color: var(--theme-sys-elevation-color-neutral5)
 
-      theme-default-primary-icon-color: var(--theme-text-primary-color)
-      theme-default-secondary-icon-color: var(--theme-text-secondary-color)
+      theme-sys-ha-primary-icon-color: var(--theme-text-primary-color)
+      theme-sys-ha-secondary-icon-color: var(--theme-text-secondary-color)
 
       # App header
-      theme-default-app-header-background-color: var(--primary-color)
+      theme-sys-ha-app-header-background-color: var(--primary-color)
       
       # Card state colors
-      theme-card-background-color: var(--theme-sys-color-background)
-      theme-card-background-color-active: white #rgb(255, 255, 255, 1)
-      theme-card-background-color-inactive: rgb(0, 0, 0, 0.05)
-      theme-card-background-color-undefined: rgb(0, 0, 0, 0.2)
-      theme-card-background-color-unavailable: rgb(0, 0, 0, 0.2)
+      theme-sys-ha-card-background-color: var(--theme-sys-color-background)
+      theme-sys-ha-card-background-color-active: white #rgb(255, 255, 255, 1)
+      theme-sys-ha-card-background-color-inactive: rgb(0, 0, 0, 0.05)
+      theme-sys-ha-card-background-color-undefined: rgb(0, 0, 0, 0.2)
+      theme-sys-ha-card-background-color-unavailable: rgb(0, 0, 0, 0.2)
+
+      # Accent colors
+      theme-sys-ha-accent-color: var(--theme-sys-color-tertiary-container)
+      theme-sys-ha-on-accent-color: var(--theme-sys-color-on-tertiary-container)
+
+      # Neumorphic colors for shadows
+      theme-sys-ha-shadow-lighter-nm: '#ffffff'
+      theme-sys-ha-shadow-darker-nm: '#d6d8cf'
+      
+    # --------------------------------------------------------------------------
+    # ==================== END of LIGHT mode configuration  ====================
+    # --------------------------------------------------------------------------
       
 
-  theme-primary-color: var(--theme-sys-color-primary)
-  theme-secondary-color: var(--theme-sys-color-secondary)
-  theme-tertiary-color: var(--theme-sys-color-tertiary)
+  # ----------------------------------------------------------------------------
+  # ==================== START of Generic theme configuration  =================
+  #
+  # - Map all system colors to Material 2 and Home Assistant CSS variables
+  #   Using theme-sys-* colors makes sure that HA will switch between dark mode
+  #   and light mode colors...
+  # ----------------------------------------------------------------------------
+
+  #
+  # Card box shadow around HA cards
+  # ----------------------------------------------------------------------------
+  
+  # ha-card-box-shadow: '3px 3px 6px var(--theme-sys-ha-shadow-darker, --theme-shadow-darker), -3px -3px 6px var(--theme-sys-ha-shadow-lighter, --theme-shadow-lighter)'
+  ha-card-box-shadow: '2px 2px 3px var(--theme-sys-color-shadow-darker-nm), -1px -1px 2px var(--theme-sys-color-shadow-darker-nm)'
+
+  theme-card-box-shadow: 'var(--shadow-elevation-2dp_-_box-shadow)'
+
+  # Neumorphic shadow colors for card background...
+  theme-sys-color-shadow-lighter-nm: var(--theme-sys-ha-shadow-lighter-nm)
+  theme-sys-color-shadow-darker-nm: var(--theme-sys-ha-shadow-darker-nm)
+  # And for compatibility reasons, these two also...
+  cs-theme-shadow-lighter: var(--theme-sys-ha-shadow-lighter-nm)
+  cs-theme-shadow-darker: var(--theme-sys-ha-shadow-darker-nm)
+  
+  # theme-primary-color: var(--theme-sys-color-primary)
+  # theme-secondary-color: var(--theme-sys-color-secondary)
+  # theme-tertiary-color: var(--theme-sys-color-tertiary)
       
-  # According to MDC Web theming to be used on light/dark backgrounds
+  #
+  # MDC Web theming to be used on light/dark backgrounds
+  # - Media Player is using these CSS Vars for back and foreground text
+  # - So map m3 colors...
   #
   # Text items
-  theme-text-primary-color-on-background: var(--theme-default-primary-text-color)
-  theme-text-primary-color-on-light: var(--theme-default-primary-text-color)
-  theme-text-primary-color-on-dark: var(--theme-default-primary-background-color)
+  # ----------------------------------------------------------------------------
+  theme-text-primary-color-on-background: var(--theme-sys-ha-primary-text-color)
+  theme-text-primary-color-on-light: var(--theme-sys-ha-primary-text-color)
+  theme-text-primary-color-on-dark: var(--theme-sys-ha-primary-background-color)
 
-  theme-text-secondary-color-on-background: var(--theme-default-primary-text-color)
-  theme-text-secondary-color-on-light: var(--theme-default-primary-text-color)
-  theme-text-secondary-color-on-dark:  var(--theme-default-primary-background-color)
+  theme-text-secondary-color-on-background: var(--theme-sys-ha-primary-text-color)
+  theme-text-secondary-color-on-light: var(--theme-sys-ha-primary-text-color)
+  theme-text-secondary-color-on-dark:  var(--theme-sys-ha-primary-background-color)
 
-  theme-text-disabled-color-on-background: var(--theme-default-disabled-text-color)
-  theme-text-disabled-color-on-light: var(--theme-default-disabled-text-color)
-  theme-text-disabled-color-on-dark:  var(--theme-default-primary-background-color)
+  theme-text-disabled-color-on-background: var(--theme-sys-ha-disabled-text-color)
+  theme-text-disabled-color-on-light: var(--theme-sys-ha-disabled-text-color)
+  theme-text-disabled-color-on-dark:  var(--theme-sys-ha-primary-background-color)
 
+  #
   # Icon items
-  theme-icon-primary-color-on-background: var(--theme-default-primary-text-color)
-  theme-icon-primary-color-on-light: var(--theme-default-primary-text-color)
-  theme-icon-primary-color-on-dark:   var(--theme-default-primary-background-color)
+  # ----------------------------------------------------------------------------
+  theme-icon-primary-color-on-background: var(--theme-sys-ha-primary-text-color)
+  theme-icon-primary-color-on-light: var(--theme-sys-ha-primary-text-color)
+  theme-icon-primary-color-on-dark:   var(--theme-sys-ha-primary-background-color)
 
-  theme-icon-secondary-color-on-background: var(--theme-default-secondary-text-color)
-  theme-icon-secondary-color-on-light: var(--theme-default-secondary-text-color)
-  theme-icon-secondary-color-on-dark:   var(--theme-default-primary-background-color)
+  theme-icon-secondary-color-on-background: var(--theme-sys-ha-secondary-text-color)
+  theme-icon-secondary-color-on-light: var(--theme-sys-ha-secondary-text-color)
+  theme-icon-secondary-color-on-dark:   var(--theme-sys-ha-primary-background-color)
 
-  theme-icon-disabled-color-on-background:  var(--theme-default-disabled-text-color)
-  theme-icon-disabled-color-on-light:  var(--theme-default-disabled-text-color)
-  theme-icon-disabled-color-on-dark:   var(--theme-default-primary-background-color)
+  theme-icon-disabled-color-on-background:  var(--theme-sys-ha-disabled-text-color)
+  theme-icon-disabled-color-on-light:  var(--theme-sys-ha-disabled-text-color)
+  theme-icon-disabled-color-on-dark:   var(--theme-sys-ha-primary-background-color)
       
-      
-  adc-wheat:  '#e5d7b9'
-  adc-whitesmoke: '#edf4f6'
-  
-
-  md-grey-0:   '#FFFFFFF'
-  md-grey-30:  '#FCFCFC'
-
-  cs-grey-lighten-50:  '#edf4f6'
-  cs-grey-lighten-40: '#edf4f6'
-  cs-grey-lighten-38: '#edf4f6'
-  cs-grey-lighten-35: '#edf4f6'
-  cs-grey-lighten-30: '#edf4f6'
-  cs-grey-lighten-20: '#edf4f6'
-  cs-grey-lighten-10: '#edf4f6'
-  cs-grey-base: '#A2A9AB'
-  cs-grey-darken-10: '#e5d7b9'
-  cs-grey-darken-20: '#e5d7b9'
-  cs-grey-darken-30: '#e5d7b9'
-  cs-grey-darken-35: '#e5d7b9'
-  cs-grey-darken-40: '#212121'
-  cs-grey-darken-45: '#e5d7b9'
-
-  cs-black: '#222222'
-  cs-white: '#FFFFFF'
-
-
   ## custom:thermostat-card settings
   #
   theme-thermostat-text-color: 'var(--primary-text-color)'
   theme-thermostat-off-fill: 'var(--primary-background-color)'
-  theme-thermostat-cool-fill: '#007AF1'
-  theme-thermostat-heat-fill: '#E36304'
-  theme-thermostat-path-color: 'var(--adc-wheat)'
+  theme-thermostat-cool-fill: var(--state-climate-cool-color) #'#007AF1'
+  theme-thermostat-heat-fill: var(--state-climate-heat-color) #'#E36304'
+  theme-thermostat-path-color: rgba(255,255,255, 0.2) #'#e5d7b9' #'var(--adc-wheat)'
   #'rgba(255,255,255, 0.3)'
-  theme-thermostat-path-active-color: 'rgba(255,255,255, 0.8)'
+  theme-thermostat-path-active-color: rgba(255,255,255, 0.8)
   theme-thermostat-path-active-color-large: 'rgba(255,255,255, 1.0)'
   theme-thermostat-path-heat-color: 'rgba(255,255,255,0.4)'
 
   #
   # Theming for custom:simple-weather-card
 
-  theme-weather-day-color:   'var(--paper-card-background-color)'
-  theme-weather-night-color: 'var(--paper-card-background-color)'
-  theme-weather-text-color:  'var(--grey-lighten-50)'
+  # theme-weather-day-color:   'var(--paper-card-background-color)'
+  # theme-weather-night-color: 'var(--paper-card-background-color)'
+  # theme-weather-text-color:  'var(--grey-lighten-50)'
 
-  upcoming-color: black
+  # upcoming-color: black
 
   ##
   # Main colors of Home Assistant
+  # - according to https://github.com/home-assistant/frontend/blob/master/src/resources/ha-style.ts
   # ============================================================================
 
-  # Base colors...
-  primary-color: 'var(--theme-default-primary-color)'
-  accent-color: 'var(--theme-default-accent-color)'
-  dark-primary-color: 'var(--theme-default-dark-primary-color)'
-  light-primary-color: 'var(--theme-default-light-primary-color)'
+  # text
+  primary-text-color: var(--theme-sys-ha-primary-text-color)
+  secondary-text-color: var(--theme-sys-ha-secondary-text-color)
+  text-primary-color: var(--theme-text-primary-color-on-dark)
+  text-light-primary-color:  var(--theme-sys-ha-primary-text-color)
+  disabled-text-color: var(--theme-sys-ha-disabled-text-color)
 
-  # Text colors
-  primary-text-color: 'var(--theme-default-primary-text-color)'
-  text-primary-color: 'var(--theme-default-primary-text-color)'
-  secondary-text-color: 'var(--theme-default-secondary-text-color)'
+  # main interface colors
+  primary-color: var(--theme-sys-ha-primary-color)
+  dark-primary-color: var(--theme-sys-ha-dark-primary-color)
+  light-primary-color: var(--theme-sys-ha-light-primary-color)
+  accent-color: var(--theme-sys-ha-accent-color)
+  # # divider-color: rgba(0, 0, 0, .12)
+  scrollbar-thumb-color: rgb(194, 194, 194)
 
-  # 2020.09.25 Set disabled text color to some slate color, not grey!
-#  disabled-text-color: 'var(--grey-darken-10)'
-  # disabled-text-color: 'var(--theme-default-darken-10)'
+  # backgrounds 
+  card-background-color: var(--theme-sys-ha-card-background-color)
+  primary-background-color: var(--theme-sys-ha-primary-background-color)
+  secondary-background-color: var(--theme-sys-ha-secondary-background-color)
 
-  # label-badge-border-color: 'var(--theme-default-lighten-50)'
+  # for header 
+  # # header-height: 56px
+
+  # for label-badge 
+  # Default for light, redefined for dark mode
+
+  label-badge-text-color: var(--primary-text-color) #var(--theme-sys-color-on-error) #
+  ha-label-badge-label-color: var(--theme-sys-color-on-error)
+
+  # states 
+  #
+  # HA state colors
+  # - HA uses a lot of --state- color variables.
+  #   Only map a few and see the result...
+  # ----------------------------------------------------------------------------
+  # Default icon color (off state)
+  state-icon-color: var(--theme-sys-elevation-color-neutral8)
+
+  # an active state is anything that would require attention 
+  state-icon-active-color: var(--theme-sys-ha-error-color) #FDD835
+
+
+  # rgb 
+  # 
+  # Define some of the rgb-* colors to make checkboxes and more work with dark/light mode
+  # I assumed that these rgb-* variants would be calculated automatically ?!?!?!?!
+  # ----------------------------------------------------------------------------
+  rgb-primary-color: rgb(var(--primary-color))
+  rgb-accent-color: rgb(var(--accent-color))
+  rgb-primary-text-color: rgb(var(--primary-text-color))
+  rgb-secondary-text-color: rgb(var(--secondary-text-color))
+  rgb-text-primary-color: rgb(var(--text-primary-color))
+  rgb-card-background-color: rgb(var(--card-background-color))
+
+  ##
+  # Extra colors of Home Assistant
+  # - extra definitions that seem to be required to let everything work...
+  # ============================================================================
+
+  # text (extra)
+  text-accent-color: var(--theme-sys-ha-on-accent-color)
 
   # Top menu text color
   app-header-text-color: white
-  app-header-background-color: var(--theme-default-app-header-background-color)
+  app-header-background-color: var(--theme-sys-ha-app-header-background-color)
   
   # Sidebar
   # - icon colors...
-  sidebar-icon-color: var(--theme-default-primary-text-color)
+  sidebar-icon-color: var(--theme-sys-ha-primary-text-color)
 
-  # Background colors
-  # Primary is background, secondary is for menu
-  primary-background-color: var(--theme-default-primary-background-color)
-  secondary-background-color: var(--theme-default-secondary-background-color)
-  card-background-color: var(--theme-card-background-color) #var(--paper-card-background-color)
+  #
+  # Paper CSS variables
+  # - Map m3 colors to paper CSS
+  # ----------------------------------------------------------------------------
+  paper-card-header-color: var(--light-primary-color)
+  paper-card-background-color: var(--theme-sys-ha-card-background-color)
+  paper-dialog-background-color: var(--primary-background-color)
   
-  # divider-color: 'rgba(229, 215, 185, .25)'
-  # table-row-background-color: 'rgba(22, 25, 26, .11)'
-  # table-row-alternative-background-color: 'rgba(22, 25, 26, .05)'
-
-  # Nav Menu
-  # Nav Menu background is listbox-background-color. A bit lighter than the primary background
-  # paper-listbox-color: 'var(--primary-text-color)'
-  # paper-listbox-background-color: 'var(--theme-default-primary-background-color)'
-  # paper-grey-50: 'var(--primary-text-color)'
-  # paper-grey-200: 'var(--theme-default-secondary-background-color)'
-
-  # Paper card
-  # Colors for the ha-cards
-  # Paper card background color is on primary-background-color
-  paper-card-header-color: 'var(--light-primary-color)'
-
-  # 2020.09.23
-  # The latest versions of hass us this color also for popup and overlay windows.
-  # This means you can't use rgba colors, as the background is visible
-  # Using a color picker with the rgba color, results in rgb(82,95,98).
+  # Icon stuff...
+  # ----------------------------------------------------------------------------
+  paper-item-icon-color: var(--theme-sys-elevation-color-neutral8)
   
-  #paper-card-background-color: 'rgba(255, 255, 255, 0.07)'
-  # Yep, color for background cards!!!!!
-  paper-card-background-color: red #var(--theme-card-background-color) #'var(--secondary-background-color)' #theme-background-color-lighten-40)'
-
-  # Used to be fixed:
-  # paper-dialog-background-color: 'rgba(255, 255, 255, 0.09)'
-  paper-dialog-background-color: 'var(--primary-background-color)'
-
-  # paper-item-icon-color: 'var(--primary-text-color)'
   # paper-item-icon-color: '#555555'
-  # paper-item-icon-active-color: 'var(--primary-color)'
+  # Used for active icons in entity-row card for instance.
+  # default color is var(--paper-item-icon-active-color, #fdd835);
+  # paper-item-icon-active-color: var(--theme-sys-color-tertiary)
+  # paper-item-icon-active-color: var(--theme-sys-ha-error-color)
+
   # paper-item-icon_-_color: 'var(--secondary-text-color)'
-  # paper-item-selected_-_background-color: 'var(--theme-default-darken-20)'
+  # paper-item-selected_-_background-color: 'var(--theme-sys-ha-darken-20)'
   # paper-tabs-selection-bar-color: 'var(--secondary-text-color)'
 
+  #
   # Home Assistant Badges/Labels
-  # label-badge-red: 'var(--primary-color)'
-  label-badge-text-color: 'var(--primary-text-color)'
-  # Find name of text on label. It is not the previous one label-badge-text-color... That is the value of the badge.
-  # ha-label-badge-label-color: 'var(--grey-darken-40)'
-  # label-badge-background-color: 'var(--grey-darken-40)'
-
-  # Switches
-  # paper-toggle-button-checked-button-color: 'var(--light-primary-color)'
-  # paper-toggle-button-checked-bar-color: 'var(--light-primary-color)'
-  # paper-toggle-button-checked-ink-color: 'var(--light-primary-color)'
-  # paper-toggle-button-unchecked-button-color: 'var(--disabled-text-color)'
-  # paper-toggle-button-unchecked-bar-color: 'var(--disabled-text-color)'
-  # paper-toggle-button-unchecked-ink-color: 'var(--disabled-text-color)'
-
-  # Radio buttons
-  mdc-radio-unchecked-color: var(--theme-default-disabled-text-color) #rgba(255,255,255, 0.54) #var(--primary-text-color)
+  # - Map m3 error color to the red badge label
+  # ----------------------------------------------------------------------------
+  label-badge-text-color: var(--primary-text-color) #var(--theme-sys-color-on-error) #
+  ha-label-badge-label-color: var(--theme-sys-color-on-error)
   
+  #
+  # Material Design 2 Web colors
+  # - Map m3 to main mdc-theme colors
+  # ----------------------------------------------------------------------------
   mdc-theme-on-primary: var(--theme-sys-color-on-primary)
   mdc-theme-on-secondary: var(--theme-sys-color-on-secondary)
-  mdc-theme-error: var(--theme-sys-color-error)
+  mdc-theme-error: var(--theme-sys-ha-error-color)
   mdc-theme-secondary: var(--theme-sys-color-secondary)
+
+  # Radio buttons
+  mdc-radio-unchecked-color: var(--theme-sys-ha-disabled-text-color) #rgba(255,255,255, 0.54) #var(--primary-text-color)
   
   # Sliders
   # paper-slider-knob-color: 'var(--light-primary-color)'
@@ -902,46 +1060,3 @@ M3-07-DarkOliveGreen:
   # paper-slider-secondary-color: 'var(--secondary-background-color)'
   # paper-slider-disabled-active-color: 'var(--disabled-text-color)'
   # paper-slider-disabled-secondary-color: 'var(--disabled-text-color)'
-
-  # Google colors
-  google-red-500: 'var(--dark-primary-color)'
-  google-green-500: 'var(--light-primary-color)'
-
-  #Changes to fix history/logbook menus
-  # lumo-primary-text-color: 'var(--light-primary-color)'
-  # lumo-secondary-text-color: 'var(--light-primary-color)'
-  # lumo-primary-color: 'var(--light-primary-color)'
-
-  #Calendar day numbers
-  # lumo-body-text-color: 'var(--light-primary-color)'
-
-  #Calendar/Date-Picker Background
-  # lumo-base-color: 'var(--primary-background-color)'
-
-  #Month/Year header
-  # lumo-header-text-color: 'var(--lumo-body-text-color)'
-
-  #DayOfWeek Header
-  # lumo-tertiary-text-color: 'var(--lumo-body-text-color)'
-  # lumo-shade: 'var(--theme-default-darken-10)'
-  # lumo-darken-90pct: 'rgba(31, 41, 43, .9)'
-  # lumo-darken-80pct: 'rgba(31, 41, 43, .8)'
-  # lumo-darken-70pct: 'rgba(31, 41, 43, .7)'
-  # lumo-darken-60pct: 'rgba(31, 41, 43, .6)'
-  # lumo-darken-50pct: 'rgba(31, 41, 43, .5)'
-  # lumo-darken-40pct: 'rgba(31, 41, 43, .4)'
-  # lumo-darken-30pct: 'rgba(31, 41, 43, .3)'
-  # lumo-darken-20pct: 'rgba(31, 41, 43, .2)'
-  # lumo-darken-10pct: 'rgba(31, 41, 43, .1)'
-  # lumo-darken-5pct: 'rgba(31, 41, 43, .05)'
-  # lumo-lighten-5pct: 'var(--theme-default-darken-10)'
-  
-    # # fix for device configuration screen
-  # # Fix for Person Device Chooser - thanks to vajonam!
-  # material-background-color: "var(--paper-listbox-background-color)"
-  # material-secondary-background-color: 'var(--secondary-background-color)' #'#222222'
-  # material-body-text-color: '#FFFFFF'
-  # # simple-thermostat buttons
-  # st-mode-background: 'var(--primary-background-color)'
-  # # fix white on white markdown code sections (eg. the addons infos)
-  # markdown-code-background-color: 'var(--secondary-background-color)'
