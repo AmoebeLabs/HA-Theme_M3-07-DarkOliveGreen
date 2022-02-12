@@ -21,7 +21,7 @@ The theme also defines some Neumorphic shadow colors for dark and light mode.
 For beta documentation: see https://ha-m3-themes.docs.amoebelabs.com/
 
 ## Installation via HACS
-TODO
+This Theme is in the default theme repository of HACS
 
 ## Manual Installation
 Get the yaml file and put int into your `themes` folder.
