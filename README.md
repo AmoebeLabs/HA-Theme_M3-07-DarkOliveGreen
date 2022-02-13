@@ -62,7 +62,7 @@ Note that the card background in the light theme is white instead of the lightes
 <!-- Badges -->
 
 [hacs-url]: https://github.com/custom-components/hacs
-[hacs-badge]: https://img.shields.io/badge/HACS-Default-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
+[hacs-badge]: https://img.shields.io/badge/HACS-Default-41BDF5.svg?style=for-the-badge
 [release-badge]: https://img.shields.io/github/v/release/AmoebeLabs/HA-Theme_M3-07-DarkOliveGreen?style=for-the-badge
 [downloads-badge]: https://img.shields.io/github/downloads/AmoebeLabs/HA-Theme_M3-07-DarkOliveGreen/total?style=for-the-badge
 [build-badge]: https://img.shields.io/github/workflow/status/AmoebeLabs/HA-Theme_M3-07-DarkOliveGreen/Build?style=for-the-badge
