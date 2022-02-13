@@ -37,13 +37,13 @@ The theme will be automatically available once you have reloaded the themes usin
 ## Theme Preview:
 Below the definition of the theme, generated and displayed using the Swiss Army Knife custom card for Home Assistant (NYR).
 
-![m3-07-palettes](https://github.com/AmoebeLabs/ha-theme_m3-07-darkolivegreen/blob/main/preview/m3-07-palettes.png)
+![m3-07-palettes](https://github.com/AmoebeLabs/ha-theme_m3-07-darkolivegreen/blob/main/preview/m3-theme-07-palettes.png)
 
-![m3-07-surfaces](https://github.com/AmoebeLabs/ha-theme_m3-07-darkolivegreen/blob/main/preview/m3-07-surfaces.png)
+![m3-07-surfaces](https://github.com/AmoebeLabs/ha-theme_m3-07-darkolivegreen/blob/main/preview/m3-theme-07-surfaces.png)
 
-![m3-07-light](https://github.com/AmoebeLabs/ha-theme_m3-07-darkolivegreen/blob/main/preview/m3-07-light.png)
+![m3-07-light](https://github.com/AmoebeLabs/ha-theme_m3-07-darkolivegreen/blob/main/preview/m3-theme-07-light.png)
 
-![m3-07-dark](https://github.com/AmoebeLabs/ha-theme_m3-07-darkolivegreen/blob/main/preview/m3-07-dark.png)
+![m3-07-dark](https://github.com/AmoebeLabs/ha-theme_m3-07-darkolivegreen/blob/main/preview/m3-theme-07-dark.png)
 
 ## Some real-world screenshots:
 A Light and Dark example made with the Swiss Army Knife custom card.
