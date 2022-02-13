@@ -2,7 +2,6 @@
 [![hacs][hacs-badge]][hacs-url]
 [![release][release-badge]][release-url]
 ![downloads][downloads-badge]
-![build][build-badge]
 
 <!--- ![beta_badge](https://img.shields.io/badge/State-Beta-orange?style=for-the-badge) -->
 <!---[![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration) -->
@@ -65,4 +64,10 @@ Note that the card background in the light theme is white instead of the lightes
 [hacs-badge]: https://img.shields.io/badge/HACS-Default-41BDF5.svg?style=for-the-badge
 [release-badge]: https://img.shields.io/github/v/release/AmoebeLabs/HA-Theme_M3-07-DarkOliveGreen?style=for-the-badge
 [downloads-badge]: https://img.shields.io/github/downloads/AmoebeLabs/HA-Theme_M3-07-DarkOliveGreen/total?style=for-the-badge
-[build-badge]: https://img.shields.io/github/workflow/status/AmoebeLabs/HA-Theme_M3-07-DarkOliveGreen/Build?style=for-the-badge
+
+<!-- References -->
+
+[home-assistant]: https://www.home-assistant.io/
+[home-assitant-theme-docs]: https://www.home-assistant.io/integrations/frontend/#defining-themes
+[hacs]: https://hacs.xyz
+[release-url]: https://github.com/AmoebeLabs/HA-Theme_M3-07-DarkOliveGreen/releases
