@@ -986,7 +986,7 @@ M3-07-DarkOliveGreen:
   primary-text-color: var(--theme-sys-ha-primary-text-color)
   secondary-text-color: var(--theme-sys-ha-secondary-text-color)
   text-primary-color: var(--theme-text-primary-color-on-dark)
-  text-light-primary-color:  var(--theme-sys-ha-primary-text-color)
+  # text-light-primary-color:  var(--theme-sys-ha-primary-text-color)
   disabled-text-color: var(--theme-sys-ha-disabled-text-color)
 
   # main interface colors
