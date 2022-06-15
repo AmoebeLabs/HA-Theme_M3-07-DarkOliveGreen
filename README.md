@@ -22,7 +22,7 @@ All these colors have been desaturated a bit and given more brightness to have a
 
 The theme also defines some Neumorphic shadow colors for dark and light mode.
 
-For beta documentation: see https://ha-m3-themes.docs.amoebelabs.com/
+For the manual: see https://material3-themes-manual.amoebelabs.com/
 
 ## Installation via HACS
 This Theme is in the default theme repository of HACS
