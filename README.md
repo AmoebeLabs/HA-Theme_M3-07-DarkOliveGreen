@@ -24,6 +24,9 @@ The theme also defines some Neumorphic shadow colors for dark and light mode.
 
 For the manual: see https://material3-themes-manual.amoebelabs.com/
 
+For more theme examples, check [the overview of all the 22 examples][ham3-docs-examples-url]
+<br>And to implement them in your cards: look at [how to use these Material 3 themes in a Home Assistant card][ham3-docs-howtouse-url]
+
 ## Installation via HACS
 This Theme is in the default theme repository of HACS
 
@@ -72,3 +75,5 @@ Note that the card background in the light theme is white instead of the lightes
 [hacs]: https://hacs.xyz
 [release-url]: https://github.com/AmoebeLabs/HA-Theme_M3-07-DarkOliveGreen/releases
 [sak-docs-url]: https://swiss-army-knife.docs.amoebelabs.com/
+[ham3-docs-examples-url]: https://material3-themes-manual.amoebelabs.com/examples/introduction/
+[ham3-docs-howtouse-url]: https://material3-themes-manual.amoebelabs.com/using/using-ham3-in-cards/
